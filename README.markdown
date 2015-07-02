@@ -5,11 +5,10 @@ tags: python,soho
 ## 使用说明：
 1. **直接使用 `main.py -d 60 -u http://m.sohu.com -o /tmp/backup`命令之前的需要：**
 
->mac terminal下
+ >mac terminal下
 
-
- ** `pwd`   #获取当前路径，我的路径为`/Users/duankaifei/github/Soho_test`**
-  **`ln -s /Users/duankaifei/github/Soho_test/main.py /usr/bin/main.py` #建立当前main.py到／usr/bin／main.py的软连接，这样就可以直接使用上述命令了**
+ **  `pwd`   #获取当前路径，我的路径为`/Users/duankaifei/github/Soho_test`**
+ **`ln -s /Users/duankaifei/github/Soho_test/main.py /usr/bin/main.py` #建立当前main.py到／usr/bin／main.py的软连接，这样就可以直接使用上述命令了**
  
 2. **克隆**到本地，运行`main.py -d 60 -u http://m.sohu.com -o /tmp/backup`即可
 3. 运行代码，如果要停止运行，请直接中断`ctrl+c`即可
