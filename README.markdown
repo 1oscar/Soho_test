@@ -1,5 +1,5 @@
 ---
-tags: python, soho
+tags: python,soho
 ---
 
 ## 使用说明：
