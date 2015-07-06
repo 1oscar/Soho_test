@@ -27,7 +27,7 @@ tags: python,soho
  - 当然如果后期图画很多的话，可以这样优化：**正则出的图片列表去重操作即可**代码如下(共存在三种方法，这里仅列出一种，想知道的话，录了我就告诉你)：
  ```python
      image_dict = {}
-     image_dict = image_list.fromkeys()
+     image_dict = image_dict.fromkeys(image_list)
      image_list = image_dict.keys()
  ```
 
